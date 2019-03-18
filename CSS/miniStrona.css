@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    margin: 30px auto;
+    text-align: right;
+    max-width: 1240px;
+
+}
+
+nav a {
+    font-size: 1.8rem;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav a.other {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 60px;
+    margin-left: 70px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: black;
+}
+
+nav a.other:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+
+}
+
+header {
+    height: 40vh;
+    background-image: url('../images/lights.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+}
+
+main {
+    max-width: 1240px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main p.desc {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 170%;
+}
+
+main div.ficzer {
+    display: inline-block;
+    width: 33.33%;
+}
+
+main div.image {
+    margin: 20px 30px;
+    height: 200px;
+    background-color: royalblue;
+
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+footer {
+    background-color: #000;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}

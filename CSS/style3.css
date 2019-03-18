@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    font-size: 0;
+}
+
+nav a {
+    width: 25%;
+    display: inline-block;
+    font-size: 22px;
+
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a:hover {
+    border-bottom: 8px solid black;
+}
+
+nav a.btn1 {
+    background-color: burlywood;
+}
+
+nav a.btn2 {
+    background-color: deepskyblue;
+}
+
+nav a.btn3 {
+    background-color: darkcyan;
+}
+
+nav a.btn4 {
+    background-color: royalblue;
+}
+
+
+header {
+    height: 200px;
+    background-color: cadetblue;
+
+}
+
+main {
+    min-height: 50vh;
+    background-color: burlywood;
+}
+
+footer {
+    min-height: 50px;
+    background-color: darkcyan;
+}
