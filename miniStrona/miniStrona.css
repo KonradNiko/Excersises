@@ -51,7 +51,7 @@ nav a.other:hover {
 
 header {
     height: 40vh;
-    background-image: url('../images/lights.jpg');
+    background-image: url('lights.jpg');
     background-size: cover;
 }
 
