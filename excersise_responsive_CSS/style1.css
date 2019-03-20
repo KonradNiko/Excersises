@@ -1,0 +1,86 @@
+@media (max-width: 1400px) {
+
+
+    div.item1 {
+        display: none;
+    }
+
+    div.item2 {
+        display: none;
+    }
+
+    div.item3 {
+        display: none;
+    }
+
+    div.item4 {
+        display: none;
+    }
+
+    div.item5 {
+        display: block;
+        font-size: 25px;
+        border: 10px solid blue;
+
+    }
+}
+
+@media (max-width: 1299px) {
+    body {
+        background-color: grey;
+    }
+
+    div.item4 {
+        display: block;
+    }
+
+    div.item5 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    body {
+        background-color: aqua;
+    }
+
+    div.item3 {
+        display: block;
+    }
+
+    div.item4 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 639px) {
+    body {
+        background-color: greenyellow;
+    }
+
+    div.item2 {
+        display: block;
+    }
+
+    div.item3 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 359px) {
+    body {
+        background-color: red;
+    }
+
+    div.item1 {
+        display: block;
+    }
+
+    div.item2 {
+        display: none;
+    }
+
+}

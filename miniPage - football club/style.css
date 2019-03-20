@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: royalblue;
+}
+
+header div {
+    width: 20%;
+    height: 200px;
+    margin: 2.5%;
+    background-color: #0b11b1;
+    float: left;
+}
+
+header div:nth-child(1) {
+    background-image: url(icardi2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header div:nth-child(2) {
+    background-image: url(perisic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header div:nth-child(3) {
+    background-image: url(handa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header div:nth-child(4) {
+    background-image: url(skriniar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+nav {
+    background-color: black;
+    padding: 10px 0 10px 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    max-width: 1280px;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+nav ul li a:hover {
+    background-color: #888;
+    color: blue;
+    border-color: blue;
+}
+
+main {
+
+    padding: 40px 20px 0 20px;
+    float: left;
+    width: 65%
+}
+
+div.articles {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+article img {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+
+}
+
+article p {
+    margin-top: 20px;
+}
+
+article h1 {
+    text-transform: uppercase;
+}
+
+aside {
+
+    background-color: #95b2cc;
+    float: left;
+    width: 33%;
+    margin-top: 40px;
+}
+
+section.matches {
+    padding: 15px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section.matches li {
+    margin: 10px 0;
+}
+
+section.matches li i {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+
+}
